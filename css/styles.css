@@ -1,0 +1,594 @@
+
+.wrapper{
+  width: 1024px;
+  /*outline: 1px solid #666;*/
+  margin: auto;
+}
+
+.header{
+  margin-top: 20px;
+}
+
+.phone{
+  float: left;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+.login{
+  height: 25px;
+  width: 490px;
+  background-color: #154c6f;
+  float: left;
+  border-radius: 4px;
+}
+
+.loginIn{
+  float: left;
+}
+
+.loginIn input{
+  margin-top: 3px;
+  margin-left: 2px;
+}
+
+.loginInImg{
+  margin-top: 4px;
+  margin-left: 3px;
+  width: 15px;
+  float: left;
+}
+
+.loginBut{
+  float: left;
+  margin-left: 5px;
+}
+
+.loginList li {
+  float: left;
+  padding-right: 5px;
+}
+
+.loginList li a{
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.headImage{
+  width: 909px;
+  margin: auto;
+}
+
+.menu{
+  height: 30px;
+  width: 909px;
+  background-color: #17191b;
+  position: relative;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.list{
+  position: absolute;
+  left: 80px;
+}
+
+.list li {
+  float: left;
+  padding-right: 35px;
+}
+
+.list li a{
+  text-decoration: none;
+  color: #b1bcc0;
+  font-family: arial;
+  font-size: 14px;
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 7px;
+}
+
+.list li a:hover{
+  color: white;
+  background-color: #185476;
+  border-radius: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.koshyk{
+  position: absolute;
+  right: 15px;
+  top: 8px;
+}
+
+.searchCar{
+  width: 415px;
+  height: 133px;
+  margin-top: 10px;
+  margin-left: 60px;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  float: left;
+  position: relative;
+}
+
+.searchCar p{
+  float: left;
+}
+
+.font_search_l{
+  color: #154468;
+  font-family: "Arial Black";
+  font-size: 10px;
+  
+}
+
+.position_l_s_c{
+  padding-left: 15px;
+}
+
+.position_r_s_c{
+  padding-left: 80px;
+}
+
+.font_search_l_centr{
+  color: #154468;
+  font-family: "Arial Black";
+  font-size: 12px;
+  padding-left: 80px;
+}
+
+.fontBrand_l{
+  font-family: "Arial";
+  font-size: 10px;
+}
+
+.positionBrandL{
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.positionBrandR{
+  padding-left: 28px;
+  padding-right: 20px;
+}
+
+.fontBrand_l_in{
+  color: #77858b;
+  font-family: "Arial";
+  font-size: 10px;
+}
+
+
+.positionBrandMiddleBox{
+  position: absolute;
+  left: 10px;
+  top: 25px;
+}
+
+.positionBrandMiddleBox2{
+  position: absolute;
+  left: 115px;
+  top: 25px;
+}
+
+.positionBrandMiddleBoxInp{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+
+.positionBrandMiddleBoxInp2{
+  position: absolute;
+  top: 20px;
+  left: 125px;
+}
+
+.positionBrandMiddleBox3{
+  position: absolute;
+  left: 40px;
+  top: 45px;
+}
+
+
+.positionBrandMiddleBoxInp3{
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+.positionBrandMiddleBox4{
+  position: absolute;
+  left: 12px;
+  top: 70px;
+}
+
+.positionBrandMiddleBoxInpCH{
+  position: absolute;
+  left: 50px;
+  top: 70px;
+}
+
+.positionBrandMiddleBoxInpCH2{
+  position: absolute;
+  left: 50px;
+  top: 82px;
+}
+
+.positionBrandMiddleBoxInpCH3{
+  position: absolute;
+  left: 50px;
+  top: 94px;
+}
+
+.fontBrand_lChB{
+  font-family: "Arial";
+  font-size: 12px;
+  
+} 
+
+.positionBrandMiddleBoxChP{
+  position: absolute;
+  top: 70px;
+  left: 65px;
+}
+
+.positionBrandMiddleBoxChP2{
+  position: absolute;
+  top: 82px;
+  left: 65px;
+}
+
+.positionBrandMiddleBoxChP3{
+  position: absolute;
+  top: 94px;
+  left: 65px;
+}
+
+
+.positionBrandLRbox{
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.positionBrandRightBoxInp{
+  position: absolute;
+  top: 20px;
+  left: 90px;
+}
+
+
+.positionBrandLRbox2{
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+
+.positionBrandRightBoxInp2{
+  position: absolute;
+  top: 50px;
+  left: 90px;
+}
+
+
+.positionBrandLRbox3{
+  position: absolute;
+  top: 75px;
+  left: 15px;
+}
+
+.positionBrandRightBoxInp3{
+  position: absolute;
+  top: 85px;
+  left: 90px;
+}
+
+.positionBrandLRboxRight{
+  position: absolute;
+  right: 3px;
+  border-left: 1px solid #77858b;
+  padding-left: 15px;
+  margin-top: 3px;
+}
+
+.test{
+  width: 60px;
+  float: left;
+  margin-left: 15px;
+  margin-right: 19px;
+}
+
+.test2{
+  float: left;
+}
+
+.test3{
+  width: 60px;
+  float: left;
+  margin-left: 32px;
+  margin-right: 20px;
+}
+
+.test4{
+  float: left;
+  margin-right: 43px;
+}
+
+.inputPositionL{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.equipmentPosL{
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.equipmentPosR{
+  margin-left: 30px;
+  margin-right: 5px;
+}
+
+.findSearch{
+  font-family: Arial;
+  font-size: 14px;
+  color: #154467;
+  font-style: italic;
+  width: 62px;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+}
+
+.searchBus{
+  width: 193px;
+  height: 133px;
+  margin-top: 10px;
+  margin-left: 12px;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  float: left;
+  position: relative;
+}
+
+.font_search_centr_right{
+  color: #154468;
+  font-family: "Arial Black";
+  font-size: 12px;
+  position: absolute;
+  left: 5px;
+}
+
+.searchRimes{
+  width: 268px;
+  height: 133px;
+  margin-top: 10px;
+  margin-left: 12px;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  float: left;
+  position: relative;
+}
+
+.clear{
+  clear: both;
+  margin-bottom: 10px;
+}
+
+.fontLRMenu{
+  font-family: arial;
+  font-size: 14px;
+  color: #0c3256;
+}
+
+.leftMenu{
+  margin-left: 60px;
+  float: left;
+}
+
+.leftMenu ul{
+  list-style-type: circle;
+  margin-left: 40px;
+}
+
+.leftMenu ul li{
+  padding-bottom: 10px;
+}
+
+.listProduct{
+  width: 183px;
+  height: 25px;
+  padding: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+}
+
+.buses{
+  width: 143px;
+  height: 25px;
+  padding: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 10px;
+}
+
+.rimes{
+  width: 143px;
+  height: 25px;
+  padding: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 10px;
+}
+
+.bolts{
+  width: 143px;
+  height: 25px;
+  padding: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 10px;
+}
+
+.middleBox{
+  width: 525px;
+  height: 600px;
+  background-color: #e2e6e7;
+  float: left;
+  margin-left: 10px;
+  position: relative;
+}
+
+.wheel{
+  width: 135px;
+  height: 125px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.wheel img{
+  display:block;
+  margin: 0 auto;
+}
+
+/*
+
+.wheel1{
+  position: absolute;
+  left: 20px;
+  top: 45px;
+}
+
+.wheel2{
+  position: absolute;
+  left: 180px;
+  top: 45px;
+}
+
+.wheel3{
+  position: absolute;
+  left: 350px;
+  top: 45px;
+}
+
+*/
+
+.headerWheelHead{
+  margin-left: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #206988;
+  font-family: arial;
+}
+
+.headerWheelFut{
+  font-size: 14px;
+  font-family: arial;
+  margin-left: 9px;
+  margin-bottom: 2px;
+}
+
+.headerWheel{
+ /* position: absolute; */
+  width: 135px;
+  margin-left: 25px;
+  margin-top: 15px;
+  float: left;
+}
+
+.footerWheel{
+  margin-top: 2px;
+  margin-left: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #114165;
+  font-family: arial;
+}
+
+.rightMenu{
+  float: left;
+  margin-left: 10px;
+}
+
+.rightMenu input{
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.listBrend{
+  width: 183px;
+  height: 25px;
+  padding: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+}
+
+.busesR{
+  width: 143px;
+  height: 25px;
+  padding: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.rimesR{
+  width: 143px;
+  height: 25px;
+  padding: 0 auto;
+  border-radius: 10px; 
+  box-shadow: 1px 1px 2px 2px grey;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.butt{
+  width: 100px;
+  height: 25px;
+  background-color: #213a4d;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.butt p{
+  color: white;
+  padding: 3px;
+  padding-left: 15px;
+}
+
+.futer{
+  width: 909px;
+  height: 50px;
+  background-color: #213a4d;
+  margin: auto;
+}
+
+.listFut{
+  position: absolute;
+  right: 550px;
+}
+
+.listFut li {
+  float: left;
+  padding-right: 20px;
+}
+
+.listFut li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  font-size: 12px;
+}
+
+.listFut li a:hover{
+  color: #4b9cba;
+}
